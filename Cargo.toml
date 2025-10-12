@@ -1,0 +1,16 @@
+[package]
+name = "wladjust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libnotify-sys = "1.0.2"
+smithay-client-toolkit = {version = "0.20.0", features = ["calloop"]}
+wayland-client = "0.31.11"
+env_logger = "0.11.8"
+wayland-protocols = "0.32.9"
+libnotify = "1.0.3"
+signal-hook = "0.3.18"
+clap = {version = "4.5.49", features = ["derive"]}
+nix = {version = "0.30.1", features = ["fs", "process", "signal"]}
+log = "0.4.28"
