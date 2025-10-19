@@ -6,6 +6,10 @@ Wayland program to smoothly adjust anything using the pointer.
 2. Move the cursor left or right to smoothly adjust the value lower or higher.
 3. Click or press any key to exit
 
+
+<video autoplay muted src="https://github.com/user-attachments/assets/cefb1278-cee5-4230-b3d2-0d78c31f79b1"></video>
+
+
 ## Examples
 
 ### Brightness with `brightnessctl`
